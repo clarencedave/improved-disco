@@ -8,7 +8,7 @@ const ContactPage = () => (
         <div class="container">
             <div class="card">
                  <img src= {logo} alt="Avatar" class="avatar"/>
-        <h2>Clarence Dave </h2>
+        <h2> example </h2>
         <p class="title">CEO & Founder</p>
         <p>Some text that describes me lorem ipsum ipsum lorem.</p>
         <p>example@example.com</p>
@@ -21,7 +21,7 @@ const ContactPage = () => (
              <div class="container">
                  <div class="card">
                     <img src={logo} alt="Jane" class="avatar" />
-        <h2>Dave</h2>
+        <h2>example</h2>
         <p class="title">CEO & Founder</p>
         <p>Some text that describes me lorem ipsum ipsum lorem.</p>
         <p>example@example.com</p>
@@ -34,7 +34,7 @@ const ContactPage = () => (
             <div class="container">
                 <div class="card">
                     <img src={logo} alt="Jane" class="avatar" />
-        <h2>Jane Doe</h2>
+        <h2>example</h2>
         <p class="title">CEO & Founder</p>
         <p>Some text that describes me lorem ipsum ipsum lorem.</p>
         <p>example@example.com</p>
