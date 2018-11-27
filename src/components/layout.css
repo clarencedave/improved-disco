@@ -5,6 +5,8 @@ html {
 }
 body {
   margin: 0;
+  background: white;
+  
 }
 
 .header-right {
@@ -71,11 +73,87 @@ body {
   display: table;
 }
 
-.avatar {
+
+
+ .home {
+  font-weight: lighter;
+  font-size: 80px;
+  color: black;
+  text-align: center;
+  padding-top: 50px;
+  
+}
+
+.home p {
+ color: black;
+ text-align: center;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-size: 20px;
+ margin-top: 0;
+
+}
+
+.media a {
+  list-style: none;
+  margin: 10px 30px;
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px 20px;
+  color: #fff;
+  border: 1px solid #fff;
   border-radius: 50%;
+  transition: .5s;
+  
+}
+
+.fb {
+  
+ text-align: center;
+  width: 65px;
+  height: 65px;
+  border-radius: 65%;
+  margin: auto;
+}
+
+.in {
+  text-align: center;
+  width: 65px;
+  height: 65px;
+  border-radius: 65%;
+  margin: auto;
+}
+
+.twit {
+  text-align: center;
+  width: 65px;
+  height: 65px;
+  border-radius: 65%;
+  margin: auto;
+ 
+}
+.mail {
+  text-align: center;
+  width: 65px;
+  height: 65px;
+  border-radius: 65%;
+  margin: auto;
+ 
+}
+.pin {
+  text-align: center;
+  width: 65px;
+  height: 65px;
+  border-radius: 65%;
+  margin: auto;
+ 
 }
 
 
+
+
+div .media {
+  text-align: center;
+}
 
 
 article,

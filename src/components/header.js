@@ -4,7 +4,7 @@ import logo from '../images/seattle-angel-logo.png'
 const Header = ({ siteTitle }) => (
   <div
     style={{
-      background: '#000080',
+      background: '#2F4F4F',
       marginBottom: '1.45rem',
       
     }}
