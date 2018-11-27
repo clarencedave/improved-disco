@@ -9,28 +9,27 @@ import Layout from '../components/layout'
 
 const homePage = () => (
   <Layout>
-    <div class = "home">
-    <h1>Seattle Angel</h1>
-    <p>A non-profit corporation. Sparking the flame of angel investing in the Northwest</p>
-    
-    </div>
-   
-    <div class= "wrapper">
-
           <div class = "media"> 
           
           <a  href= "facebook.com"> <img src= {facebook} alt="fb" class = "fb"/></a>
           <a  href= "linkedin.com"> <img src= {linkedin} alt="in"class = "in"/></a>
           <a  href= "twitter.com"> <img src= {twit} alt="twit"class = "twit"/></a>
           <a  href= "gmail.com"> <img src= {mail} alt="mail"class = "mail"/></a>
-          
+          <div class="hero-image">
+          <div class="hero-text">
+         
+            <h1>Find Us</h1>
+            <button>Learn More!</button>
+          </div>
+          </div>
           </div>
 
-    </div>
+</Layout>
+     
 
 
 
-    </Layout>
+    
 )
 
 export default homePage

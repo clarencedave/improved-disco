@@ -4,14 +4,24 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 body {
-  margin: 0;
-  background: white;
-  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+    background-image: url("../images/Lighthouse.jpg");
 }
 
 .header-right {
   float: right;
-  
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
 }
 
 .header a {
@@ -38,8 +48,47 @@ body {
 
 }
 
+.header-right a
+{
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
 
+.header-right {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
 
+.button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
 
 *, *:before, *:after {
   box-sizing: inherit;
@@ -61,6 +110,7 @@ body {
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
 }
 
 .container {
@@ -108,7 +158,7 @@ body {
 
 .fb {
   
- text-align: center;
+  text-align: center;
   width: 65px;
   height: 65px;
   border-radius: 65%;
@@ -139,20 +189,16 @@ body {
   margin: auto;
  
 }
-.pin {
-  text-align: center;
-  width: 65px;
-  height: 65px;
-  border-radius: 65%;
-  margin: auto;
- 
+
+
+.media h1 {
+  color: wheat;
 }
-
-
 
 
 div .media {
   text-align: center;
+  
 }
 
 

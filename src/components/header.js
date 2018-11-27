@@ -1,15 +1,24 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import logo from '../images/seattle-angel-logo.png'
+import styled from "styled-components";
+
+
+const HeaderWrapper = styled.div`
+background: #524763;
+marginBottom: 1.45rem;
+h1 {
+  img {
+    height : 100px;
+  }
+}
+
+`;
+
+
+
 const Header = ({ siteTitle }) => (
-  <div
-    style={{
-      background: '#2F4F4F',
-      marginBottom: '1.45rem',
-      
-    }}
-  >
-  
+  <HeaderWrapper>
     <div
       style={{
         margin: '0 auto',
@@ -54,7 +63,7 @@ const Header = ({ siteTitle }) => (
 
 
 
-  </div>
+  </HeaderWrapper>
   
 )
 

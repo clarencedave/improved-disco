@@ -13,8 +13,16 @@ const IndexPage = (props) => {
             <span>{node.frontmatter.date}</span>
             <p>{node.excerpt}</p>
           </div>
+          
         </Link>
-      ))}
+        
+    ))}
+        <div class="header-right">
+        <a class="active" href="/">Home</a>
+        <a href="#about">About</a>
+        <a href="#news">Resources</a>
+        <a href="contacts">Leadership</a>
+        </div>
     </Layout>
     
   )
