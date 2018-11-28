@@ -7,7 +7,7 @@ function BlogPost(props) {
   return (
       <Layout>
         
-          <div>
+          <div class = "color">
               <h1>{title}</h1>
               <div dangerouslySetInnerHTML={{ __html: post.html }} />
           </div>
