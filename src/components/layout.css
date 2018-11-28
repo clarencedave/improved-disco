@@ -88,6 +88,8 @@ body {
 }
 
 .column {
+
+  color: white;
   float: left;
   width: 33.3%;
   margin-bottom: 16px;
@@ -96,17 +98,21 @@ body {
 
 @media screen and (max-width: 650px) {
   .column {
+    color: white;
     width: 100%;
     display: block;
   }
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  color: white;
+  box-shadow: 0 4px 8px 0 white;
+  border-radius: 5px;
 
 }
 
 .container {
+  color: white;
   padding: 0 16px;
 }
 
@@ -114,8 +120,7 @@ body {
   content: "";
   clear: both;
   display: table;
-}
-
+ }
 
 
  .home {
@@ -192,7 +197,7 @@ div .media {
 
 div .color {
   color: white;
-  
+
 }
 
 article,

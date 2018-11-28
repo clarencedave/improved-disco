@@ -52,7 +52,7 @@ const Header = ({ siteTitle }) => (
     <a class="active" href="/">Home</a>
     <a href="#about">About</a>
     <a href="#news">Resources</a>
-    <a href="contacts">Leadership</a>
+    <a href="contacts">Team</a>
   </div>
   
   <div class="profit">
