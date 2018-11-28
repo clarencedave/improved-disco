@@ -9,7 +9,7 @@ import Layout from '../components/layout'
 
 const homePage = () => (
   <Layout>
-    
+      
           <div class = "media"> 
             <div class="hero-image">
               <div class="hero-text">
@@ -21,11 +21,11 @@ const homePage = () => (
 
                 <br/>
                    <br/>
-                      <button >Learn More!</button>
+                      <button class = "but" >< a href = "/"> Learn More! </a></button>
                          </div>
                             </div>
                                </div>
-
+    
 
 
           
