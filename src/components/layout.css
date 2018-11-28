@@ -12,16 +12,18 @@ body {
     background-image: url("../images/Lighthouse.jpg");
 }
 
+
+
 .header-right {
   float: right;
-  float: left;
-  color: black;
+  color: white;
   text-align: center;
   padding: 12px;
   text-decoration: none;
   font-size: 18px; 
-  line-height: 25px;
-  border-radius: 4px;
+  line-height: 0px;
+  border-radius: 0px;
+  
 }
 
 .header a {
@@ -51,7 +53,7 @@ body {
 .header-right a
 {
   float: left;
-  color: black;
+  color:BLUE;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -59,16 +61,6 @@ body {
   
 }
 
-.header-right {
-  float: right;
-  color: black;
-  text-align: center;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 18px; 
-  line-height: 25px;
-  border-radius: 4px;
-}
 
 .button:hover {
   background-color: #4CAF50; /* Green */
@@ -159,33 +151,33 @@ body {
 .fb {
   
   text-align: center;
-  width: 65px;
-  height: 65px;
-  border-radius: 65%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
   margin: auto;
 }
 
 .in {
   text-align: center;
-  width: 65px;
-  height: 65px;
-  border-radius: 65%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
   margin: auto;
 }
 
 .twit {
   text-align: center;
-  width: 65px;
-  height: 65px;
-  border-radius: 65%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
   margin: auto;
  
 }
 .mail {
   text-align: center;
-  width: 65px;
-  height: 65px;
-  border-radius: 65%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
   margin: auto;
  
 }
@@ -201,6 +193,14 @@ div .media {
   
 }
 
+.foot {
+  position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
 
 article,
 aside,

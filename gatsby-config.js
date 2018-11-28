@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: <img src= {logo} alt="Angel"/>,
+    title: '',
   },
     
   plugins: [
