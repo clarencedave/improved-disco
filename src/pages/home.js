@@ -13,6 +13,12 @@ const homePage = () => (
           <div class = "media"> 
             <div class="hero-image">
               <div class="hero-text">
+              <h1>Find Us On:</h1>
+             <a  href= "https://web.facebook.com/?_rdc=1&_rdr"> <img src= {facebook} alt="fb" class = "fb"/></a>
+               <a  href= "https://www.linkedin.com/feed/"> <img src= {linkedin} alt="in"class = "in"/></a>
+                 <a  href= "https://twitter.com/"> <img src= {twit} alt="twit"class = "twit"/></a>
+                   <a  href= "https://www.google.com/intl/fil/gmail/about/#"> <img src= {mail} alt="mail"class = "mail"/></a>
+
                 <br/>
                    <br/>
                       <button >Learn More!</button>
@@ -22,14 +28,9 @@ const homePage = () => (
 
 
 
-          <footer class = "foot">
-            <h1>Find Us On:</h1>
-             <a  href= "https://web.facebook.com/?_rdc=1&_rdr"> <img src= {facebook} alt="fb" class = "fb"/></a>
-               <a  href= "https://www.linkedin.com/feed/"> <img src= {linkedin} alt="in"class = "in"/></a>
-                 <a  href= "https://twitter.com/"> <img src= {twit} alt="twit"class = "twit"/></a>
-                   <a  href= "https://www.google.com/intl/fil/gmail/about/#"> <img src= {mail} alt="mail"class = "mail"/></a>
-
-                       </footer>
+          
+            
+                       
 
           
 
