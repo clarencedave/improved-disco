@@ -49,10 +49,10 @@ const Header = ({ siteTitle }) => (
   
 
   <div class="header-right">
-    <a class="active" href="/">Home</a>
-    <a href="#about">About</a>
-    <a href="#news">Resources</a>
-    <a href="contacts">Team</a>
+    <a class="active" href="/">HOME</a>
+    <a href="#about">ABOUT</a>
+    <a href="#news">RESOURCES</a>
+    <a href="contacts">TEAM</a>
   </div>
   
   <div class="profit">
