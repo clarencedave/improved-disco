@@ -3,7 +3,6 @@ path: "/post2"
 title: "Hi"
 description: This post is related to the gatsbyjs
 date: '2018-09-26'
-author: Clarence Dave
 ---
 
 
@@ -16,3 +15,11 @@ electronic typesetting, remaining essentially unchanged. It was popularised in
 the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
 and more recently with desktop publishing software like Aldus PageMaker
 including versions of Lorem Ipsum.
+
+{
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/pages`,
+        name: "pages",
+      },
+    }
