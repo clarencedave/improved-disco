@@ -50,8 +50,7 @@ const Header = ({ siteTitle }) => (
 
   <div class="header-right">
     <a class="active" href="/">HOME</a>
-    <a href="#about">ABOUT</a>
-    <a href="#news">RESOURCES</a>
+    <a href="#about">CONFERENCE</a>
     <a href="contacts">TEAM</a>
   </div>
   

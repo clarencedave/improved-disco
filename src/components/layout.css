@@ -12,9 +12,6 @@ body {
     background-image: url("../images/Lighthouse.jpg");
 }
 
-
-
-
 .header-right {
   float: right;
   color: white;
@@ -31,7 +28,7 @@ body {
  
   color: white;
   text-align: center;
-  padding: 12px;
+  padding: 18px;
   text-decoration: none;
   font-size: 18px; 
   border-radius: 4px;
