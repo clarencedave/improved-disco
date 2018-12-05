@@ -5,7 +5,6 @@ import linkedin from '../images/linkedin.png'
 import twit from '../images/twit.png'
 import mail from '../images/gmail.png'
 import Layout from '../components/layout'
-//import gif from '../images/giphy.gif'
 
 const homePage = () => (
   <Layout>

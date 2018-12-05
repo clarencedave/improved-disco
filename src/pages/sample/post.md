@@ -1,8 +1,8 @@
 ---
-path: "/post2"
-title: "Hello"
-description: This post is related to the gatsbyjs
-date: '2018-11-30'
+path: '/path'
+title: 'Title'
+description: Description
+date : '2019-12-31'
 image: 'nature.jpeg'
 ---
 # Lorem Ipsum

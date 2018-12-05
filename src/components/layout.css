@@ -8,27 +8,62 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    
-    background-image: url("../images/Lighthouse.jpg");
+    background-image: url("../images/background.png");
 }
 
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
 
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
 
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+img {
+    border: 1px solid #ddd; 
+    border-radius: 4px; 
+    padding: 5px; 
+    width: 150px; 
+}
 
 .header-right {
-  float: right;
-  color: white;
-  text-align: center;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 18px; 
-  line-height: 0px;
-  border-radius: 0px;
-  
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
 }
 
+
+  
+
+
 .header a {
- 
   color: white;
   text-align: center;
   padding: 12px;
@@ -48,18 +83,17 @@ body {
 .profit {
   color: white;
   text-align: center;
-
 }
 
 .header-right a
 {
   float: left;
-  color:BLUE;
-  text-align: center;
-  padding: 14px 16px;
+  padding: 12px;
+  color: white;
   text-decoration: none;
   font-size: 17px;
-  
+  width: 25%; /* Four links of equal widths */
+  text-align: center;
 }
 
 
@@ -80,7 +114,6 @@ body {
     -webkit-transition-duration: 0.4s; 
     transition-duration: 0.4s;
     cursor: pointer;
-    
 }
 
 *, *:before, *:after {
@@ -99,11 +132,17 @@ body {
     width: 100%;
     display: block;
   }
+
+  .header-right a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
 }
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-
 }
 
 .container {
@@ -116,15 +155,12 @@ body {
   display: table;
 }
 
-
-
  .home {
   font-weight: lighter;
   font-size: 80px;
   color: black;
   text-align: center;
   padding-top: 50px;
-  
 }
 
 .home p {
@@ -133,7 +169,6 @@ body {
  font-family: Georgia, 'Times New Roman', Times, serif;
  font-size: 20px;
  margin-top: 0;
-
 }
 
 .media a {
@@ -146,7 +181,6 @@ body {
 }
 
 .fb {
-  
   text-align: center;
   width: 50px;
   height: 50px;
@@ -168,36 +202,31 @@ body {
   height: 50px;
   border-radius: 50%;
   margin: auto;
- 
 }
+
 .mail {
   text-align: center;
   width: 50px;
   height: 50px;
   border-radius: 50%;
   margin: auto;
- 
 }
 
 
 .media h1 {
-  color: wheat;
+  color:black;
 }
 
 
 div .media {
   text-align: center;
-  
 }
 
-.foot {
-  position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: white;
-    text-align: center;
+div .color {
+  color: white;
 }
+
+
 
 article,
 aside,

@@ -26,6 +26,7 @@ const Header = ({ siteTitle }) => (
         padding: '1.45rem 1.0875rem',
       }}
     >
+    
       <h1 style={{ margin: 0 }}>
       
         <Link
@@ -49,11 +50,11 @@ const Header = ({ siteTitle }) => (
   
 
   <div class="header-right">
-    <a class="active" href="/">Home</a>
-    <a href="#about">About</a>
-    <a href="#news">Resources</a>
-    <a href="contacts">Leadership</a>
-  </div>
+  <a href="/"> Home </a> 
+  <a href="about"> About </a> 
+  <a href="#resource"> Resources </a> 
+  <a href="contacts"> Leadership </a>
+</div>
   
   <div class="profit">
   <p>A non-profit corporation. Sparking the flame of angel investing in the Northwest</p>

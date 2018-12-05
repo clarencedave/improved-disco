@@ -1,37 +1,29 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import { Link, graphql } from 'gatsby'
 import Layout from '../components/layout'
-
 const IndexPage = (props) => {
   const postList = props.data.allMarkdownRemark;
   return (
     <Layout>
       {postList.edges.map(({ node }, i) => (
         <Link to={node.fields.slug} className="link" >
+        
           <div className="post-list">
+          <Link to={node.frontmatter.path}><img src={node.frontmatter.image} alt=""/></Link>
             <h1>{node.frontmatter.title}</h1>
             <span>{node.frontmatter.date}</span>
             <p>{node.excerpt}</p>
+            
           </div>
-          
         </Link>
-        
-    ))}
-        <div class="header-right">
-        <a class="active" href="/">Home</a>
-        <a href="#about">About</a>
-        <a href="#news">Resources</a>
-        <a href="contacts">Leadership</a>
-        </div>
+      ))}
     </Layout>
-    
   )
 }
-
-export default IndexPage
-
+export default IndexPage;
 export const listQuery = graphql`
   query ListQuery {
+    
     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
       edges {
         node {
@@ -42,7 +34,13 @@ export const listQuery = graphql`
           frontmatter {
             date(formatString: "MMMM Do YYYY")
             title
-            
+            image {
+              childImageSharp {
+                sizes(maxWidth: 660) {
+                  ...GatsbyImageSharpSizes_tracedSVG
+                }
+              }
+            }
           }
         }
       }
