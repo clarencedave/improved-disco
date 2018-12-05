@@ -44,22 +44,22 @@ const Header = ({ siteTitle }) => (
     </div>
 
 <div class="header">
-  <a   href="/" >
-  <img src= {logo} alt="Angel"/>
-  </a>
+  <a   href="home" >
+    <img src= {logo} alt="Angel"/>
+       </a>
   
 
   <div class="header-right">
-  <a href="/"> Home </a> 
-  <a href="about"> About </a> 
-  <a href="#resource"> Resources </a> 
-  <a href="contacts"> Leadership </a>
-</div>
+    <a href="/"> Home </a> 
+      <a href="about"> About </a> 
+        <a href="#resource"> Resources </a> 
+          <a href="leadership"> Leadership </a>
+             </div>
   
   <div class="profit">
-  <p>A non-profit corporation. Sparking the flame of angel investing in the Northwest</p>
-  </div>
-</div>
+    <p>A non-profit corporation. Sparking the flame of angel investing in the Northwest</p>
+      </div>
+        </div>
 
 
 

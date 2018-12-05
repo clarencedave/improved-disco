@@ -1,21 +1,23 @@
 import React from 'react'
-import ReactDOM from 'react-dom'  
-import { Timeline } from 'react-twitter-widgets'
+import Layout from '../components/layout'
 
-// var Timeline = require('react-twitter-widgets').Timeline
+const filePage = () => (
+  <Layout>
+    
+   <div>
+
+     <form name = "contact" method = "post" netlify>
+       <input Fname = "Fname " placeholder = "Your First Name" type ="text"/>
+       <input Lname = "Lname " placeholder = "Your Last name" type ="text"/>
+       <input address = "address " placeholder = "Address" type ="text"/>
+       <input email = "mail " placeholder = "Email" type ="text"/>
+       <button>Send</button>
+     </form>
+
+   </div>
  
-ReactDOM.render((
+  </Layout>
   
-  <Timeline
-    dataSource={{
-      sourceType: 'https://twitter.com/maylynsambas',
-      screenName: '@maylynsambas'
-    }}
-    options={{
-      username: '@maylynsambas',
-      height: '400'
-    }}
-    onLoad={() => console.log('Timeline is loaded!')}
-  />
-), document.getElementById('root'))
+)
 
+export default filePage
