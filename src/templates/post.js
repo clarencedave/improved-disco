@@ -3,7 +3,6 @@ import Layout from '../components/layout';
 import Img from 'gatsby-image';
 import { graphql } from 'gatsby'
 function BlogPost(props) {
-<<<<<<< HEAD
     const post = props.data.markdownRemark;
     const { title} = post.frontmatter;
     return (
@@ -15,19 +14,6 @@ function BlogPost(props) {
             </div>
         </Layout>
     )
-=======
-  const post = props.data.markdownRemark;
-  const { title } = post.frontmatter;
-  return (
-      <Layout>
-        
-          <div class = "color">
-              <h1>{title}</h1>
-              <div dangerouslySetInnerHTML={{ __html: post.html }} />
-          </div>
-      </Layout>
-  )
->>>>>>> 0fa6604e3ad2538074514870787635e6e8e39037
 }
 
 export default BlogPost

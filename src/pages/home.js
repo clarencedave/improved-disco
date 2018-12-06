@@ -23,8 +23,9 @@ const homePage = () => (
                       <button class = "but" >< a href = "/"> Learn More! </a></button>
                          </div>
                             </div>
+                            
                                </div>
-    
+          
 
 
           

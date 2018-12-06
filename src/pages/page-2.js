@@ -6,13 +6,10 @@ import Layout from '../components/layout'
 const SecondPage = () => (
   <Layout>
     
-    
     <a class ="image" href={img}>
     <img src={img} alt="Forest"/>
     </a>
     
-   
- 
   </Layout>
   
 )

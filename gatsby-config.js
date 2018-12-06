@@ -3,7 +3,7 @@ module.exports = {
     title: '',
   },
     
-  plugins: [ `gatsby-plugin-twitter`,
+  plugins: [ 
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-source-filesystem`,
