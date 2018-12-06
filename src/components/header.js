@@ -50,11 +50,18 @@ const Header = ({ siteTitle }) => (
   
 
   <div class="header-right">
+<<<<<<< HEAD
     <a href="/"> Home </a> 
       <a href="about"> About </a> 
         <a href="#resource"> Resources </a> 
           <a href="leadership"> Leadership </a>
              </div>
+=======
+    <a class="active" href="/">HOME</a>
+    <a href="#about">CONFERENCE</a>
+    <a href="contacts">TEAM</a>
+  </div>
+>>>>>>> 0fa6604e3ad2538074514870787635e6e8e39037
   
     <div class="profit">
       <p>A non-profit corporation. Sparking the flame of angel investing in the Northwest</p>
